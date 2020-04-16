@@ -53,7 +53,7 @@ public class Coordinates {
         if(x<=0 || x>4 ||y>4 || y <= 0){
             if(condition==0 && xCoordB==true){
                 ++this.x;
-                xCoordB=false; // X 4'TEN BUYUK ISE BENIM UZAYIMDAN BUYUK buraya gelme birdaha
+                xCoordB=false; // X 4'TEN BUYUK ISE BENIM UZAYIMDAN BUYUK (Böylece birdaha düşmez)
 
             }
             else if (condition==1 && yCoordB==true){
